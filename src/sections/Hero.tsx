@@ -149,13 +149,13 @@ export const HeroSection = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/resume.pdf" rel="noopener noreferrer">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl ">
             <span className="font-semibold">My Resume</span>
             <ArrowDown className="size-4" />
           </button>
           </a>
-          <a href="mailto:skalambe@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20there%2C%20I%20saw%20your%20portfolio%20and...">
+          <a href="mailto:skalambe520@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20there%2C%20I%20saw%20your%20portfolio%20and...">
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋🏻</span>
             <span className="font-semibold">Let&apos;s talk</span>
