@@ -15,7 +15,7 @@ export const ContactSection = () => {
           <div>
       <h2 className="font-poppins text-2xl md:text-3xl">Lets's create something amazing together</h2>
       <p className="text-sm md:text-base mt-2">
-        Ready to bring your next project to life? Lets's connect and discuss how I can help you achieve your goals.
+        Ready to bring your next project to life? Lets&apos;s connect and discuss how I can help you achieve your goals.
       </p>
       </div>
       <div>

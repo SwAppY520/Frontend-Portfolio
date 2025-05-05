@@ -158,7 +158,7 @@ export const HeroSection = () => {
           <a href="mailto:skalambe@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20there%2C%20I%20saw%20your%20portfolio%20and...">
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋🏻</span>
-            <span className="font-semibold">Let's talk</span>
+            <span className="font-semibold">Let&apos;s talk</span>
           </button>
           </a>
         </div>
