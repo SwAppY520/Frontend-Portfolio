@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Calistoga, Poppins } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -37,6 +37,7 @@ export default function RootLayout({
           "bg-neutral-950 text-white antialiased font-sans",
         )}>
         {children}
+        <SpeedInsights/>
       </body>
   </html>
   );
