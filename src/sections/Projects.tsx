@@ -1,6 +1,6 @@
 import uiuxAgencyLandingPage from "@/assets/images/UIUX Agency Landing Page.png";
 import clothingLandingPage from "@/assets/images/Clothing Landing Page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import frontendPortfolioImage from "@/assets/images/frontend-portfolio.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -17,6 +17,7 @@ const portfolioProjects = [
       { title: "Smooth animations using GSAP." },
       { title: "Designed a user-friendly interface." },
     ],
+    link: "https://ui-ux-agency-landing-page.vercel.app/",
     image: uiuxAgencyLandingPage,
   },
   {
@@ -28,19 +29,20 @@ const portfolioProjects = [
       { title: "Smooth animations." },
       { title: "JavaScript for dynamic interactions." },
     ],
+    link: "https://clothing-website-fawn-eta.vercel.app/",
     image: clothingLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Portfolio",
+    year: "2025",
+    title: "Frontend Portfolio",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Build with ReactJS TailwindCSS Framer Motion" },
+      { title: "Smooth animation using TailwindCSS" },
+      { title: "Designed a Responsive Layout" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://swapnilkalambe.vercel.app/",
+    image: frontendPortfolioImage,
   },
 ];
 
